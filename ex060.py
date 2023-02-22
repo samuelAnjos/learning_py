@@ -1,0 +1,9 @@
+numero = int(input('Digite um numero'))
+fatOne = 1
+fatTwo = 2
+fat = 3
+fatorial = fatOne * fatTwo
+while fat <= numero:
+    fatorial = fatorial * fat
+    fat += 1
+print('o fatorial de {} = {}'.format(numero, fatorial))

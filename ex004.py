@@ -1,0 +1,8 @@
+text = input('Informe algo')
+print(type(text))
+print('Só tem espaços? ', text.isspace())
+print('E alfabetico: ',text.isalpha())
+print('É numero?', text.isnumeric())
+print('Esta em maiuscula', text.isupper())
+print('Esta em minuscula', text.islower())
+print('Esta capitalizada', text.istitle())
